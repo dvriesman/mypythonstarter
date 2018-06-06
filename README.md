@@ -21,11 +21,11 @@ python main.py
 
 ## Para gerar o container
 ```
-docker build -t [docker_user/app_name] --no-cache .
+sudo docker build -t [docker_user/app_name] --no-cache .
 ```
 
 ## Para publicar no docker registry
 ```
-docker login -u [user] -p [senha] -e [email]
-docker push [docker_user/app_name]
+sudo docker login -u [user] -p [senha] -e [email]
+sudo docker push [docker_user/app_name]
 ```
